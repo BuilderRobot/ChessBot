@@ -3,6 +3,7 @@
 ### Training Data and Results
 I trained the model on a dataset of 50,000 training games, labeled using the players’ next moves. I let the model train for 16 epochs, as the test accuracy started to stagnate. The model was tested on a small set of 2,000 test games. 
 The model reached a training accuracy of 34% and a testing accuracy of 22%. The training accuracy was still steadily increasing by epoch 16, but the testing accuracy had stagnated, climbing less than one percent in the last 5 epochs.
+A more detailed evaluation is available
 
 ### Model Architecture
 The model takes a 8 x 8 x 12 tensor as input. This is a stack of 12 8x8 chess boards, with each board having one of the six types of chess pieces, and one of the two players. 
